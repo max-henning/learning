@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <style>
+        /* Grundlegendes Styling für die Seite */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        /* Styling für den Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Styling für die Navigationslinks im Header */
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        /* Styling für die verschiedenen Abschnitte */
+        section {
+            padding: 20px;
+        }
+
+        /* Styling für den Container, der den Inhalt zentriert */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Spezifisches Styling für die Abschnitte */
+        #about, #education, #projects, #contact {
+            margin-top: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling für die Projekte */
+        .project {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            background: #fafafa;
+        }
+
+        /* Styling für die Projektbilder */
+        .project img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        /* Styling für den Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header mit Navigationslinks -->
+    <header>
+        <h1>Mein Portfolio</h1>
+        <nav>
+            <a href="#about">Über mich</a>
+            <a href="#education">Werdegang</a>
+            <a href="#projects">Projekte</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <!-- Über mich Abschnitt -->
+    <section id="about" class="container">
+        <h2>Über mich</h2>
+        <p>Hallo, ich bin [Dein Name], ein [Dein Beruf] mit Leidenschaft für [Dein Interessengebiet]. Mit [X] Jahren Erfahrung in [Dein Fachgebiet], habe ich an einer Vielzahl von Projekten gearbeitet, die meine Fähigkeiten und mein Wissen erweitert haben.</p>
+        <p>Ich bin besonders versiert in [Liste deiner wichtigsten Fähigkeiten oder Technologien], und habe umfangreiche Erfahrung in [weitere relevante Erfahrungen oder Fachgebiete].</p>
+    </section>
+
+    <!-- Werdegang Abschnitt -->
+    <section id="education" class="container">
+        <h2>Werdegang</h2>
+        <h3>Ausbildung</h3>
+        <p>[Dein Abschluss], [Deine Universität], [Jahre]</p>
+        <h3>Berufserfahrung</h3>
+        <p>[Deine Position], [Deine Firma], [Jahre]</p>
+        <p>[Beschreibung deiner Aufgaben und Erfolge]</p>
+    </section>
+
+    <!-- Projekte Abschnitt -->
+    <section id="projects" class="container">
+        <h2>Projekte</h2>
+        <div class="project">
+            <h3>Projekt 1</h3>
+            <img src="projekt1.jpg" alt="Bild von Projekt 1">
+            <p>Beschreibung des Projekts 1. Was wurde gemacht, welche Technologien wurden verwendet und was waren die Ergebnisse.</p>
+        </div>
+        <div class="project">
+            <h3>Projekt 2</h3>
+            <img src="projekt2.jpg" alt="Bild von Projekt 2">
+            <p>Beschreibung des Projekts 2. Was wurde gemacht, welche Technologien wurden verwendet und was waren die Ergebnisse.</p>
+        </div>
+        <!-- Weitere Projekte können hier hinzugefügt werden -->
+    </section>
+
+    <!-- Kontakt Abschnitt -->
+    <section id="contact" class="container">
+        <h2>Kontakt</h2>
+        <p>Du kannst mich unter <a href="mailto:dein.email@beispiel.de">dein.email@beispiel.de</a> erreichen oder mich auf <a href="https://www.linkedin.com/in/deinprofil">LinkedIn</a> finden.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Dein Name. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
